@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import image from '../../../public/image/Copy of IMG20230402132731.jpg'
+import image2 from '../../../public/image/rsz_img20230801134626.jpg'
 import linkedin from '../../../public/image/linkedin-logo.png'
 import { MdEmail } from "react-icons/md";
 
