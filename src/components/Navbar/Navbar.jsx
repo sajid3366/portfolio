@@ -1,18 +1,26 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
 
-        <div className="navbar bg-neutral text-white px-8 shadow-md sticky">
+        <div className="navbar bg-neutral text-white px-8 py-3 shadow-md sticky">
             <div className="flex-1">
-                <button className="text-2xl text-neutral-content">Ahtesham Sajid</button>
+                <Link to="/"><button className="text-2xl text-neutral-content">Ahtesham Sajid</button></Link>
             </div>
             <div className="mr-10">
-                <ul className="flex gap-x-3 items-center">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/project">Project</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                <ul className="flex gap-x-3 items-center text-gray-500">
+                    <li><NavLink to="/" className={({ isActive, isPending }) =>
+                                isActive ? "text-[#FFFF]  font-bold" : isPending ? "pending" : ""
+                            }>Home</NavLink></li>
+                    <li><NavLink to="/project" className={({ isActive, isPending }) =>
+                                isActive ? "text-[#FFFF]  font-bold" : isPending ? "pending" : ""
+                            }>Project</NavLink></li>
+                    <li><NavLink to="/about" className={({ isActive, isPending }) =>
+                                isActive ? "text-[#FFFF]  font-bold" : isPending ? "pending" : ""
+                            }>About</NavLink></li>
+                    <li><NavLink to="/contact" className={({ isActive, isPending }) =>
+                                isActive ? "text-[#FFF]  font-bold" : isPending ? "pending" : ""
+                            }>Contact</NavLink></li>
                 </ul>
             </div>
             <div className="flex-none">

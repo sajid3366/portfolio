@@ -5,7 +5,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto my-12 flex gap-x-10">
 
             <div className="w-1/2">
-                <h1 className='border-gray-600 border-[1px] px-3 py-2 rounded-full text-xs text-center mb-10 w-[100px]'>ABOUT</h1>
+                <h1 className='border-gray-600 border-[1px] px-3 py-2 rounded-full text-xs text-center mb-10 w-[100px] '>ABOUT</h1>
                 <h1 className="text-4xl mb-5">Every great Web Application begin with an even better story</h1>
                 <p className='text-justify'>I am a WEB Developer. I am working with React, Node.js,Express JS, React Native and MongoDB.I also have experience in developing static websites using HTML, CSS and JavaScript(ES6).I can provide clean code and pixel perfect design.</p>
                 <p className='mt-5 text-justify'>
