@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import image from '../../../public/image/Copy of IMG20230402132731.jpg'
 import image3 from '../../../public/image/—Pngtree—vector resume icon_4256778.png'
 import linkedin from '../../../public/image/linkedin-logo.png'
