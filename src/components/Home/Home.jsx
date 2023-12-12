@@ -6,7 +6,7 @@ import Skills from "./Skills";
 const Home = () => {
     return (
         <div className=" px-10 mt-5 mb-12 ">
-            <div className="flex gap-x-24">
+            <div className="lg:flex gap-x-24">
                 <Aside></Aside>
                 <div>
                     <Introduce></Introduce>

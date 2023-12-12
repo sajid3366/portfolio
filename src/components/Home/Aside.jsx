@@ -18,9 +18,9 @@ const Aside = () => {
                     </div>
                 </a>
                 <a href="https://github.com/sajid3366">
-                    <div className=' border-gray-500 border-[1px] rounded-full p-5'>
+                    <div className=' border-gray-500 border-[1px]  rounded-full p-5'>
 
-                        <img className='w-[20px] text-white' src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="" />
+                        <img className='w-[20px] rounded-full bg-white' src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="" />
 
                     </div>
                 </a>
@@ -32,11 +32,12 @@ const Aside = () => {
                     </div>
                 </a>
             </div>
-            <Link to="/contact">
+            <a href="mailto:ahteshamsajdi8@gmail.com">
                 <div className='px-5'>
                     <p className='bg-[#28e98c] py-3 text-xl rounded-full flex gap-2 items-center justify-center cursor-pointer hover:bg-neutral hover:border-[#28e98c] hover:border-[1px]'><MdEmail></MdEmail>HIRE ME!</p>
                 </div>
-            </Link>
+            </a>
+
         </div>
     );
 };
