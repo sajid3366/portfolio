@@ -9,7 +9,7 @@ const Aside = () => {
             <h1 className="text-xl">Web Developer</h1>
             <img className='w-[300px] h-[300px] mx-auto mt-5 rounded-tl-[20px] rounded-br-[20px] mb-5' src={image} alt="" />
             <div className='flex gap-x-3 justify-center mb-5'>
-                <a href="https://www.linkedin.com/in/ahtesham-sajid-68aa2022a/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/ahtesham-sajid-68aa2022a/" target="_blank" rel="noreferrer">   
                     <div className=' border-gray-500 border-[1px] rounded-full p-5'>
 
                         <img className='w-[20px]' src={linkedin} alt="" />
