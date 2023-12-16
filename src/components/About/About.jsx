@@ -1,5 +1,5 @@
 import image from '../../../public/image/Copy of IMG20230402132731.jpg'
-
+import '../Shared/Shared.css'
 const About = () => {
     return (
         <div className="max-w-6xl mx-auto my-12  md:flex gap-x-10 px-4">
@@ -12,7 +12,7 @@ const About = () => {
                     Full Stack Web Developer | Transforming ideas into interactive and user-friendly websites. Expertise in front-end technologies with a keen eye for design. Committed to delivering seamless digital experiences. Passionate about innovation, coding, and creating solutions that make an impact. Let's bring your vision to life!
                 </p>
                 <div className='flex justify-center md:flex-none md:justify-normal'>
-                    <p className="bg-[#28e98c]  w-[250px] mt-12 py-3 text-xl rounded-md flex gap-2 items-center justify-center cursor-pointer"><a href="https://drive.google.com/file/d/16AP1Mh8FMHBSKOanizvMbP-JQoQpbvr2/view?usp=drive_link" target="_blank" rel="noreferrer">Download Resume</a></p>
+                    <p className="bg-[#28e98c]  w-[250px] mt-12 py-3 text-xl rounded-md flex gap-2 items-center justify-center cursor-pointer color "><a href="https://drive.google.com/file/d/16AP1Mh8FMHBSKOanizvMbP-JQoQpbvr2/view?usp=drive_link" target="_blank" rel="noreferrer">Download Resume</a></p>
                 </div>
 
             </div>

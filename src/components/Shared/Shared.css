@@ -1,0 +1,8 @@
+.color{
+    color: white;
+    transition: 300ms;
+}
+.color:hover{
+    border: solid 1px #28e98c;
+    background: none;
+}

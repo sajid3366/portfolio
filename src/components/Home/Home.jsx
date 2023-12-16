@@ -8,7 +8,7 @@ const Home = () => {
         <div className=" px-10 mt-5 mb-12 ">
             <div className="lg:flex gap-x-24">
                 <Aside></Aside>
-                <div>
+                <div className="">
                     <Introduce></Introduce>
                     <Education></Education>
                     <Skills></Skills>
