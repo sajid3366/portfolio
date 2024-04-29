@@ -1,7 +1,7 @@
-import Project from "../Project/Project";
 import Aside from "./Aside";
 import Education from "./Education";
 import Introduce from "./Introduce";
+import Project from "./ProjectHome";
 import Skills from "./Skills";
 
 const Home = () => {
