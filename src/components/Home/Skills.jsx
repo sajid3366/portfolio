@@ -7,7 +7,7 @@ import nodejs from '../../../public/image/nodejs.png'
 import mongo from '../../../public/image/mongo.png'
 const Skills = () => {
     return (
-        <div className="mt-[60px] max-w-4xl">
+        <div className="mt-[60px] max-w-5xl mb-32">
             <div>
                 <h1 className="border-gray-600 border-[1px] px-3 py-2 rounded-full text-sm text-center mb-10 w-[140px] flex  justify-center items-center gap-x-2 uppercase"><GiSkills></GiSkills>My Skills</h1>
                 <div className="ml-[50px]">
@@ -49,14 +49,14 @@ const Skills = () => {
                             </div>
                             <p className="mt-2">Node JS</p>
                         </div>
-                       
+
                         <div className="text-center border-gray-600 border-[1px] cursor-pointer py-5 rounded-md hover:shadow-md hover:shadow-green-700">
                             <div className="flex justify-center">
                                 <img className="w-[80px] " src={mongo} alt="" />
                             </div>
                             <p className="mt-2">MongoDB</p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

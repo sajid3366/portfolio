@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import image from '../../../public/image/favicon.png'
 
 const Navbar = () => {
     return (
@@ -28,9 +29,10 @@ const Navbar = () => {
 
             </div>
             <div className="w-full lg:-ml-[450px]">
+                <img src={image} className="w-10 h-10 mr-1 hidden md:block" alt="" />
                 <Link to="/"><button className="text-2xl text-neutral-content">Ahtesham Sajid</button></Link>
             </div>
-            
+
             <div className="navbar-end">
                 <ul className=" hidden lg:flex gap-x-3 items-center text-gray-500 mr-10">
                     <li><NavLink to="/" className={({ isActive, isPending }) =>
